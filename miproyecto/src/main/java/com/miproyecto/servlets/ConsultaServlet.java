@@ -8,6 +8,7 @@ package com.miproyecto.servlets;
  *
  * @author Personal
  */
+@WebServlet(name = "ConsultaServlet")
 public class ConsultaServlet {
     
 }

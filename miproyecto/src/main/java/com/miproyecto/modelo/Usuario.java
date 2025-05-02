@@ -55,5 +55,9 @@ public class Usuario {
     
     public Usuario(){
     }
+    @Override
+    public String toString() {
+        return "Usuario{" + "nombre=" + nombre + ", apellido=" + apellido + ", email=" + email + '}';
+    }
     }
 
