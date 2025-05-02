@@ -107,7 +107,7 @@
         
         <div class="menu">
             <a href="index.jsp">Volver a Inicio</a>
-            <a href="consula">Consultar Usuarios</a>
+            <a href="consulta.jsp">Consultar Usuarios</a>
         </div>
         </div>
     </body>

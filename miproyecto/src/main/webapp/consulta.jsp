@@ -130,8 +130,8 @@
         
         <h2>Lista de Usuarios Registardos</h2>
         <%
-            List<Usuario> listaUsuarios = (List<Usuario>) session.getAttribute(""listaUsuarios);
-            if (listaUsuarios != null && !listaUsuarios.isEmpity()){
+            List<Usuario> listaUsuarios = (List<Usuario>)session.getAttribute("listaUsuarios");
+            if (listaUsuarios != null && !listaUsuarios.isEmpty()){
             %>
             <table>
                 <tr>
